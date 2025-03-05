@@ -1,50 +1,101 @@
-# Welcome to your Expo app 👋
+# Aora  
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Aora is a modern, video-sharing mobile application where users can upload, browse, and interact with AI-generated videos.  
 
-## Get started
+---
 
-1. Install dependencies
+## 🛠 **Tech Stack**  
 
-   ```bash
-   npm install
-   ```
+- **React Native**: For building a cross-platform mobile application.  
+- **NativeWind**: Used for responsive and dynamic styling with utility-first design principles.  
+- **Appwrite**: Backend services for authentication, database management, and file storage.  
 
-2. Start the app
+---
 
-   ```bash
-    npx expo start
-   ```
+## 📂 **Project Structure**  
 
-In the output, you'll find options to open the app in a
+- **`/src`**: Contains all source code files for the application.  
+  - **`/components`**: Modular and reusable UI components.  
+  - **`/screens`**: Individual screens like Home, Profile, and Upload.  
+  - **`/navigation`**: Configuration for navigation between screens.  
+  - **`/services`**: API calls and Appwrite configuration files.  
+  - **`/styles`**: Global styles for consistent design.  
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🖥️ **Key Features**  
 
-## Get a fresh project
+- **User Authentication**: Secure login system powered by Appwrite.  
+- **Video Uploads**: Users can upload AI-generated videos directly from their devices.  
+- **Dynamic Home Feed**: Browse a list of uploaded videos with smooth animations.  
+- **Search Functionality**: Find videos easily with an integrated search bar.  
+- **User Profiles**: Displays uploaded videos, follower count, and other stats.  
 
-When you're ready, run:
+---
 
-```bash
-npm run reset-project
-```
+## 🛠️ **Getting Started**  
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Follow these steps to set up the Aora app locally:  
 
-## Learn more
+### 1. Clone the repository  
+```bash  
+git clone https://github.com/adrianhajdin/aora.git  
+```  
 
-To learn more about developing your project with Expo, look at the following resources:
+### 2. Navigate to the project directory  
+```bash  
+cd aora  
+```  
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+### 3. Install dependencies  
+```bash  
+npm install  
+```  
 
-## Join the community
+### 4. Configure Appwrite  
+- Set up an Appwrite instance and configure authentication and storage.  
+- Update the Appwrite project credentials in the `services/appwrite.js` file.  
 
-Join our community of developers creating universal apps.
+### 5. Run the application  
+For Android:  
+```bash  
+npm run android  
+```  
+For iOS:  
+```bash  
+npm run ios  
+```  
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+
+## 🚀 **Deployment**  
+
+Aora is designed to run on both Android and iOS platforms. Use Expo or React Native CLI for deployment.  
+
+---
+
+## 🌟 **Contributing**  
+
+Contributions are welcome!  
+
+1. Fork the repository.  
+2. Create a new branch:  
+   ```bash  
+   git checkout -b feature-name  
+   ```  
+3. Make changes and commit:  
+   ```bash  
+   git commit -m 'Add feature'  
+   ```  
+4. Push the changes:  
+   ```bash  
+   git push origin feature-name  
+   ```  
+5. Open a pull request.  
+
+---
+
+## 📜 **License**  
+
+This project is licensed under the **MIT License**.  
+
